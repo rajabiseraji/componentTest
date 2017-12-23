@@ -1,0 +1,40 @@
+@import "../font/farsi.css";
+@import "./bootstrap/variables";
+
+* {
+  font-family: "IRANSans";
+}
+
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #ed0c6e;
+  height: 150px;
+  padding: 20px;
+  color: whitesmoke;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  font-family: "IRANSans";
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.display-flex {
+  display: flex;
+}
+
+.progress-bar {
+  border-radius: $progress-bar-border-radius;
+}
