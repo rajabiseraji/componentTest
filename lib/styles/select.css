@@ -1,0 +1,71 @@
+/* Palette */
+/* Global colors */
+.violet-option:hover, .Select-control:hover .violet-option {
+  color: #ED0C6E;
+  background: #F4F3F3; }
+
+.violet-option.is-focused {
+  color: #ED0C6E;
+  background: #F4F3F3; }
+
+.Select--multi .violet-option.Select-value {
+  background: #F4F3F3;
+  color: #505050;
+  border-radius: 10px;
+  border-color: #C7C7C7; }
+
+.Select--multi .violet-option.Select-value:hover {
+  color: #ED0C6E; }
+
+.violet-option.Select-value .Select-value-icon:hover {
+  color: #ED0C6E; }
+
+.Select--single .is-focused .violet-option {
+  border-color: #F4F3F3; }
+
+.Select-input {
+  flex-grow: 120; }
+
+.Select--multi .Select-multi-value-wrapper, .Select .Select-multi-value-wrapper {
+  padding-right: 10px;
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.Select-menu-outer {
+  border-top: none; }
+
+.Select--multi .Select-value-icon, .Select .Select-value-icon {
+  border-right: none;
+  padding-top: 2px;
+  padding-bottom: 2px; }
+
+.Select--multi .Select-value, .Select .Select-value {
+  vertical-align: middle;
+  margin-top: 0; }
+
+.Select-arrow {
+  margin-top: auto;
+  margin-bottom: auto;
+  align-self: center; }
+
+/*
+* This is for disabling the blue glow around the box 
+*/
+.is-focused:not(.is-open) > .Select-control {
+  box-shadow: none;
+  outline: none;
+  border-color: #C7C7C7; }
+
+.Select-control {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  justify-content: center;
+  vertical-align: middle;
+  display: flex;
+  height: auto; }
+
+.Select--multi .Select-clear-zone, .Select-arrow-zone, .Select .Select-clear-zone {
+  display: inline-flex;
+  align-items: center; }
